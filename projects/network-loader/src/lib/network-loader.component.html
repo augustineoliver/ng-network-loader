@@ -1,0 +1,71 @@
+<div class="nl-container" id="nl-container" style="display: none"
+     [ngClass]="
+       loaderPosition === 1 ? 'bottomLeft' :
+       loaderPosition === 2 ? 'topLeft' :
+       loaderPosition === 3 ? 'topRight' :
+       loaderPosition === 4 ? 'bottomRight' : 'bottomLeft'
+     "
+>
+
+  <div *ngIf="loaderType === null || 0">
+    <div class="loader-default"></div>
+  </div>
+
+  <div *ngIf="loaderType === 1">
+    <div class="loader"></div>
+  </div>
+
+  <div *ngIf="loaderType === 2">
+    <div class="loader1">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+
+  <div *ngIf="loaderType === 3">
+    <div class="loader2"></div>
+  </div>
+
+
+  <div *ngIf="loaderType === 4">
+    <div class="loader3">
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+
+  <div *ngIf="loaderType === 5">
+    <div class="loader4"></div>
+  </div>
+
+
+  <div *ngIf="loaderType === 6">
+    <div class="loader5"></div>
+  </div>
+
+
+  <div *ngIf="loaderType === 7">
+    <div class="loader6"></div>
+  </div>
+
+
+  <div *ngIf="loaderType === 8">
+    <div class="loader7"></div>
+  </div>
+
+
+  <div *ngIf="loaderType === 9">
+    <div class="loader8"></div>
+  </div>
+
+
+  <div *ngIf="loaderType === 10">
+    <div class="loader9"></div>
+  </div>
+
+</div>
