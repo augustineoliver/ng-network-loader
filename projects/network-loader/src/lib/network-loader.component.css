@@ -38,9 +38,7 @@
 .loader-default {
   display: inline-block;
   z-index: 9000;
-  position: fixed;
   bottom: 50px;
-  left: 50px;
   border: 16px solid #f3f3f3;
   border-radius: 50%;
   border-top: 16px solid #EE427F;
