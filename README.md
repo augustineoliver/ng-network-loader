@@ -13,4 +13,4 @@ To get started with ng-network-loader
     Note: loaderType is the loading icon to be displayed while loaderPosition is the the position to display the loading icon.
     
 *   To use the default setting just add <ng-network-loader></ng-network-loader> at the bottom of the app.component.html
-*   See Documentation on https://ngnetworkloader.github.io
+*   See Documentation on https://ng-network-loader.web.app/
